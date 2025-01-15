@@ -53,7 +53,7 @@ const AuthPage = () => {
         <Card className="bg-neutral-900/50 border-neutral-800">
           <CardHeader>
             <CardTitle className="text-2xl font-bold text-center text-neutral-200">
-              Welcome to SwiftKeys
+              Welcome to TypeFast
             </CardTitle>
             <CardDescription className="text-center text-neutral-400">
               Sign in to your account or create a new one

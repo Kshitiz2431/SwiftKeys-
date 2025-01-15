@@ -52,7 +52,7 @@ const CTA = () => {
           className="text-xl text-neutral-400 max-w-2xl mx-auto leading-relaxed"
         >
           Join thousands of users who have improved their typing speed and
-          accuracy with SwiftKeys.
+          accuracy with TypeFast.
         </motion.p>
         <motion.div variants={itemVariants}>
           <Button size="lg" asChild>

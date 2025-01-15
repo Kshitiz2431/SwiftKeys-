@@ -10,7 +10,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "SwiftKeys - Master Your Typing Skills",
+  title: "TypeFast - Master Your Typing Skills",
   description:
     "Practice typing, challenge friends, and track improvements with real-time stats in a sleek, minimalist interface.",
 };

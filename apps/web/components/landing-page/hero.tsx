@@ -42,7 +42,7 @@ const Hero = () => {
           className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-neutral-200"
         >
           Master Your Typing Skills <br />
-          with <span className="text-emerald-400">SwiftKeys</span>
+          with <span className="text-emerald-400">TypeFast</span>
         </motion.h1>
         <motion.p
           variants={itemVariants}

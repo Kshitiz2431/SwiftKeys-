@@ -46,7 +46,7 @@ const Stats = () => {
           animate="visible"
           className="text-3xl sm:text-4xl md:text-5xl font-bold text-center text-neutral-200 mb-12"
         >
-          SwiftKeys by{" "}
+          TypeFast by{" "}
           <span className="underline underline-offset-8 decoration-emerald-400">
             Numbers
           </span>

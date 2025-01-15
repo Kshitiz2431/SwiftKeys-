@@ -69,7 +69,7 @@ export const TESTIMONIALS = [
     username: "sarah_l",
     image: "",
     tweet:
-      "SwiftKeys has dramatically improved my typing speed. I've gone from 40 WPM to over 80 WPM in just a month!",
+      "TypeFast has dramatically improved my typing speed. I've gone from 40 WPM to over 80 WPM in just a month!",
   },
   {
     name: "Michael R.",
@@ -115,4 +115,4 @@ export const NAVLINKS = [
 ];
 
 export const WS_URL =
-  process.env.NEXT_PUBLIC_WS_URL ?? "https://ws.SwiftKeys.club";
+  process.env.NEXT_PUBLIC_WS_URL ?? "https://ws.TypeFast.club";

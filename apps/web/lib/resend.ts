@@ -13,21 +13,21 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 export const sendVerificationEmail = async (email: string, token: string) => {
   const confirmLink = `${process.env.FRONTEND_URL}/auth/verification?token=${token}`;
   await resend.emails.send({
-    from: "mail@SwiftKeys.club",
-    subject: "Verify your SwiftKeys account",
+    from: "mail@TypeFast.club",
+    subject: "Verify your TypeFast account",
     html: `
       <!DOCTYPE html>
       <html>
         <head>
           <meta charset="utf-8">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <title>Verify your SwiftKeys account</title>
+          <title>Verify your TypeFast account</title>
         </head>
         <body style="background-color: #171717; color: #e5e5e5; font-family: system-ui, -apple-system, sans-serif; margin: 0; padding: 0;">
           <div style="max-width: 600px; margin: 0 auto; padding: 20px;">
             <div style="background-color: rgba(23, 23, 23, 0.5); border: 1px solid #404040; border-radius: 8px; padding: 32px; margin: 20px;">
               <h1 style="color: #ffffff; font-size: 24px; font-weight: 600; text-align: center; margin-bottom: 16px;">
-                Welcome to SwiftKeys
+                Welcome to TypeFast
               </h1>
               <p style="color: #a3a3a3; font-size: 16px; line-height: 24px; text-align: center; margin-bottom: 24px;">
                 Thanks for signing up! Please verify your email address to get started.

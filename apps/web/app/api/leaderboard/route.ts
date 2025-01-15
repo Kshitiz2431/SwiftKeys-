@@ -3,8 +3,8 @@ import redis from "@/lib/redis";
 import { auth } from "@/auth";
 import { LeaderboardDataType, LeaderboardEntry } from "@repo/common/types";
 
-const ALL_TIME_LEADERBOARD = "SwiftKeys:leaderboard:alltime";
-const DAILY_LEADERBOARD = "SwiftKeys:leaderboard:daily";
+const ALL_TIME_LEADERBOARD = "TypeFast:leaderboard:alltime";
+const DAILY_LEADERBOARD = "TypeFast:leaderboard:daily";
 
 export const GET = async (request: NextRequest) => {
   const { searchParams } = new URL(request.url);

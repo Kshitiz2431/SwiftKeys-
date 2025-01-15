@@ -1,5 +1,5 @@
 {
-  "name": "SwiftKeys",
+  "name": "TypeFast",
   "private": true,
   "scripts": {
     "build": "turbo build",

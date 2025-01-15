@@ -1,8 +1,8 @@
-# SwiftKeys ⚡
+# TypeFast ⚡
 
 A modern, minimalist typing speed test application built with Next.js.
 
-![SwiftKeys Preview](preview.png)
+![TypeFast Preview](preview.png)
 
 ## Features 🚀
 
@@ -37,7 +37,7 @@ A modern, minimalist typing speed test application built with Next.js.
 
    ```bash
    git clone https://github.com/Kshitiz2431/SwiftKeys-.git
-   cd SwiftKeys-
+   cd TypeFast-
    ```
 
 2. **Install dependencies**

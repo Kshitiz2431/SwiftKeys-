@@ -45,7 +45,7 @@ const Features = () => {
       >
         Why Choose{" "}
         <span className="underline underline-offset-8 decoration-emerald-400">
-          SwiftKeys
+          TypeFast
         </span>
         ?
       </motion.h2>
