@@ -66,11 +66,3 @@ A modern, minimalist typing speed test application built with Next.js.
    ```
 
 6. **Visit localhost:3000**
-
-## Contributing 🤝
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License 📝
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
